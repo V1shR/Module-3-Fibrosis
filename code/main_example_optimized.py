@@ -57,3 +57,5 @@ df = pd.DataFrame(results)
 df[['Filenames', 'Depths', 'White percents']].to_csv('Percent_White_Pixels.csv', index=False)
 
 print("The .csv file 'Percent_White_Pixels.csv' has been created.")
+
+#Used Gemini for help in optimizing the code and making it more efficient.
