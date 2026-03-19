@@ -10,23 +10,23 @@ import pandas as pd
 # Load the images you want to analyze
 
 filenames = [
-    r"../images/MASK_SK658 Llobe ch010039.jpg",
-    r"../images/MASK_SK658 Slobe ch010066.jpg",
-    r"../images/MASK_SK658 Slobe ch010147.jpg",
-    r"../images/MASK_SK658 Slobe ch010110.jpg",
-    r"../images/MASK_SK658 Slobe ch010130.jpg",
-    r"../images/MASK_SK658 Slobe ch010114.jpg",
+    r"/Users/vasishtramineni/Downloads/Computational BME/Module-3-Fibrosis/images/MASK_Sk658 Llobe ch010067.jpg",
+    r"/Users/vasishtramineni/Downloads/Computational BME/Module-3-Fibrosis/images/MASK_SK658 Slobe ch010107.jpg",
+    r"/Users/vasishtramineni/Downloads/Computational BME/Module-3-Fibrosis/images/MASK_SK658 Slobe ch010087.jpg",
+    r"/Users/vasishtramineni/Downloads/Computational BME/Module-3-Fibrosis/images/MASK_Sk658 Llobe ch010019.jpg",
+    r"/Users/vasishtramineni/Downloads/Computational BME/Module-3-Fibrosis/images/MASK_Sk658 Llobe ch010051.jpg",
+    r"/Users/vasishtramineni/Downloads/Computational BME/Module-3-Fibrosis/images/MASK_SK658 Slobe ch010104.jpg",
 ]
 
 # Enter the depth of each image (in the same order that the images are listed above; you can find these in the .csv file provided to you which is tilted: "Filenames and Depths for Students")
 
 depths = [
-    15,
-    1000,
-    3000,
-    5300,
-    7000,
-    9900
+    1500,
+    6300,
+    8000,
+    60,
+    400,
+    9700
 ]
 
 # Make the lists that will be used
